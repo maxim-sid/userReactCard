@@ -1,0 +1,30 @@
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.container > input {
+    margin: 5px;
+    border: 1px solid salmon;
+}
+
+.container > button {
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    border: 1px solid salmon;
+    cursor: pointer;
+    outline: none !important;
+}
+
+.container > button:hover{
+    background-color: salmon;
+}
+
+.container > input:focus{
+    border: 2px solid red;
+    outline: none !important;
+}

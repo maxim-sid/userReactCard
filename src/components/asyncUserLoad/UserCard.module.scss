@@ -1,0 +1,50 @@
+$card_width: 100px;
+$card_height: 200px;
+
+.container{
+    width: $card_width;
+    height: $card_height;
+    margin: 10px;
+
+
+.innerWrapper {
+    position: relative;
+    width: inherit;
+    height: inherit;
+
+    & > *{
+        position: relative;
+        width: inherit;
+        height: inherit;
+
+        button{
+            position: absolute;
+            z-index: 100;
+        }
+    }
+    .front{
+        background-color: aqua;
+    }
+
+    .back{
+        background-color: blue;
+    }
+}
+
+    .innerWrapperChange{
+    transform: rotateX(180);        
+    }
+}
+
+.imageWrapper{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    object-position: top;
+
+    
+}

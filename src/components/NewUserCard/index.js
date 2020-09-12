@@ -1,10 +1,6 @@
 import React from 'react'
 import styles from './index.module.scss'
 
-const user = {
-    'fullName': '',
-}
-
 export default function NewUserCard() {
     return (
             <div className={styles.user_container}>

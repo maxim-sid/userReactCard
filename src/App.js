@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 // import UserLoader from './components/UserLoader'
 // import {slides, slidesCollection} from './components/Carousel/config'
 import NewUserCard from './components/NewUserCard';
+import userLoader from './components/asyncUserLoad';
 // import Greeting from './components/Greeting';
 // import UserList from './components/UserList';
 // import SelectedUsers from './components/SearchSelected/index'
@@ -69,7 +70,7 @@ class App extends React.Component{
 export default App;
 */
 function App() {
-  return <NewUserCard />
+  return <userLoader />
 }
 
 export default App
